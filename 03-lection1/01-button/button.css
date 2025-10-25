@@ -1,5 +1,6 @@
 .button {
     font-family: 'Roboto', sans-serif;
+    height: 48px;
     padding: 14.5px 66px;
     border: none;
     border-radius: 8px;
@@ -10,8 +11,6 @@
 }
 
 button:disabled {
-    pointer-events: none;
-    cursor: not-allowed;
     opacity: 0.5;
 }
 
