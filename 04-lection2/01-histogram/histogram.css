@@ -1,11 +1,10 @@
 .histogram {
     color: #212429;
     box-sizing: border-box;
-    width: 354px;
+    width: 100%;
     border: solid 1px #ACB5BD;
     border-radius: 8px;
-    padding: 24px;
-    padding-top: 16px;
+    padding: 16px 24px 24px;
     font-family: Inter, sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -15,7 +14,7 @@
 .histogram__wrapper {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 39px;
 }
 
 .histogram__list {
@@ -37,6 +36,7 @@
 }
 
 .histogram__link {
+    margin-top: 3px;
     text-decoration: none;
     color: #4263EB;
     font-family: Inter, sans-serif;
@@ -45,12 +45,12 @@
 
 .histogram__chart {
     display: flex;
-    justify-content: space-between;
     gap: 1px;
-    height: 55px;
+    height: 50px;
+    align-items: flex-end;
 }
 
 .histogram__bar {
     background-color: #4263EB;
-    width: 100%;
+    flex-grow: 1;
 }
