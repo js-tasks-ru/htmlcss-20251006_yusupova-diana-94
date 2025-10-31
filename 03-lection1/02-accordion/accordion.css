@@ -9,13 +9,10 @@
     color: #495057;
 }
 
-.accordion__title, .accordion__summary {
+.accordion__summary {
     font-family: Inter, sans-serif;
     font-style: normal;
     color: #212429;
-}
-
-.accordion__summary {
     list-style: none;
 }
 
