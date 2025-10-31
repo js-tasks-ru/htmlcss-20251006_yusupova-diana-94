@@ -1,18 +1,13 @@
 /* Стилизация аккордеона */
 .accordion {
-    width: 1110px;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    font-family: Inter, sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #495057;
 }
-
-.accordion__container {
-    width: 730px;
-}
-
 .accordion__title {
     margin: 0;
 }
@@ -27,19 +22,6 @@
     list-style: none;
 }
 
-.accordion__title {
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 100%;
-}
-
-.accordion__content {
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    margin-top: 16px;
-    margin-bottom: 0;
-}
-
 .accordion__item {
     margin-bottom: 8px;
     padding: 24px 32px;
@@ -49,4 +31,8 @@
 
 .accordion__item:last-child {
     margin-bottom: 0;
+}
+
+.accordion__content {
+    margin-top: 16px;
 }
