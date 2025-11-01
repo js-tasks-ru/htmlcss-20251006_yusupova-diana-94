@@ -1,6 +1,5 @@
 /* Стилизация аккордеона */
 .accordion {
-    width: 100%;
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -28,5 +27,6 @@
 }
 
 .accordion__content {
-    margin-top: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
