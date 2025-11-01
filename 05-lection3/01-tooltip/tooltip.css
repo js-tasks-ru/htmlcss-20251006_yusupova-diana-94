@@ -36,8 +36,3 @@
 /*.tooltip__trigger:hover ~ .tooltip__bubble {*/
 /*    display: block;*/
 /*}*/
-
-body {
-    text-align: center;
-    padding-top: 100px;
-}
