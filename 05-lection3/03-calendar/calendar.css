@@ -1,7 +1,7 @@
 .calendar {
     border: 1px  solid #ACB5BD;
     border-radius: 8px;
-    padding: 28px 26px;
+    padding: 28px 26px 32px;
     width: 100%;
     max-width: 300px;
 }
@@ -28,7 +28,7 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     color: #334D6E;
 }
 
