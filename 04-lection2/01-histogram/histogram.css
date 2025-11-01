@@ -1,5 +1,4 @@
 .histogram {
-    width: 100%;
     border: solid 1px var(--grey-3);
     border-radius: 8px;
     padding: 16px 24px 24px;
@@ -15,7 +14,7 @@
     margin-bottom: 39px;
 }
 
-.histogram__list {
+.histogram__info {
     margin: 0;
 }
 
