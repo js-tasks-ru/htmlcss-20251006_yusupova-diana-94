@@ -1,5 +1,4 @@
 .skeleton {
-    width: 100%;
     box-sizing: border-box;
     padding: 24px 40px 32px 24px;
     border: 1px var(--grey-3) solid;
