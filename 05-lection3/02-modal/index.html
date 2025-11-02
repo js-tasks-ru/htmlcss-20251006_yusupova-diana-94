@@ -2,11 +2,22 @@
 <!-- Страница с модалкой -->
 <html lang="ru">
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./modal.css">
+        <link rel="stylesheet" href="../../03-lection1/01-button/button.css">
         <title>Modal</title>
     </head>
     <body>
+    <button class="button button_primary" type="button" id="modal-open">Open modal</button>
+    <div class="modal__overlay">
+        <div class="modal" id="modal">
+            <h2 class="modal__title">Modal title</h2>
+            <div class="modal__content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+            <button class="modal__close" type="button" id="modal-close"></button>
+        </div>
+    </div>
     </body>
-    <script src="./index.js"></script> 
+    <script src="./index.js"></script>
 </html>
