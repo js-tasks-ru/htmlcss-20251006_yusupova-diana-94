@@ -33,6 +33,8 @@
 }
 
 .calendar__item {
+    font-family: "Source Code Pro", monospace;
+    font-style: normal;
     color: #334D6E;
     display: flex;
     justify-content: center;
