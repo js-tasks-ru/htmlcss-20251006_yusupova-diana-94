@@ -1,6 +1,6 @@
-/**, *::before, *::after {*/
-/*    box-sizing: border-box;*/
-/*}*/
+.field {
+    position: relative;
+}
 
 input[type="text"] {
     display: block;
@@ -33,3 +33,28 @@ input[type="text"]:focus {
     border-color: var(--blue);
     outline: 0;
 }
+
+.field__icon {
+    position: absolute;
+    top: 42px;
+    right: 24px;
+}
+
+.field__icon_success {
+    color: var(--blue);
+}
+
+.field .field__input_invalid {
+    color: var(--grey-4);
+    border: 1px solid var(--error);
+}
+
+.field .field__input_success {
+    color: var(--grey-4);
+}
+
+.field__icon_invalid {
+    color: var(--error);
+}
+
+
