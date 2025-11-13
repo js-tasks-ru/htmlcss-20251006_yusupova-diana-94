@@ -5,7 +5,22 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
     </head>
-    <body>
-
+    <body style="display: grid; grid-template-columns: 1fr 1fr; column-gap: 30px; row-gap: 16px;">
+        <label class="field">
+            <span class="field__title">Label</span>
+            <input class="field__input" type="text" placeholder="Placeholder">
+        </label>
+        <label class="field">
+            <span class="field__title field__input_success">Success</span>
+            <input class="field__input" type="text" placeholder="Success">
+        </label>
+        <label class="field">
+            <span class="field__title">Focus</span>
+            <input class="field__input" type="text" placeholder="Filled Input">
+        </label>
+        <label class="field">
+            <span class="field__title">Error</span>
+            <input class="field__input field__input_invalid" type="text" placeholder="Error">
+        </label>
     </body>
 </html>
