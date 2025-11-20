@@ -6,27 +6,31 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body style="display: grid; grid-template-columns: 1fr 1fr; column-gap: 30px; row-gap: 16px;">
-        <label class="field">
-            <span class="field__title">Label</span>
-            <input class="field__input" type="text" placeholder="Placeholder" name="primary">
-        </label>
-        <label class="field">
-            <span class="field__title field__input_success">Success</span>
-            <input class="field__input field__input_success" type="text" placeholder="Success" name="success">
-            <svg class="field__icon field__icon_success" viewBox="0 0 24 24" width="24" height="24">
-                <use xlink:href="/assets/images/sprite.svg#success"></use>
-            </svg>
-        </label>
-        <label class="field">
-            <span class="field__title">Focus</span>
-            <input class="field__input" type="text" placeholder="Filled Input" name="focus">
-        </label>
-        <label class="field">
-            <span class="field__title">Error</span>
-            <input class="field__input field__input_invalid" type="text" placeholder="Error" name="error">
-            <svg class="field__icon field__icon_invalid" viewBox="0 0 24 24" width="24" height="24">
-                <use xlink:href="/assets/images/sprite.svg#error"></use>
-            </svg>
-        </label>
+      <div class="field">
+        <span class="field__label">Label</span>
+        <input class="field__input" type="text" placeholder="Placeholder" name="primary">
+      </div>
+      <div class="field field_success">
+        <span class="field__label">Success</span>
+        <div class="field__wrapper">
+          <input class="field__input" type="text" placeholder="Success" name="success">
+          <svg class="field__icon field__icon_success" viewBox="0 0 24 24" width="24" height="24">
+            <use xlink:href="/assets/images/sprite.svg#success"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="field">
+        <span class="field__label">Focus</span>
+        <input class="field__input" type="text" placeholder="Filled Input" name="focus">
+      </div>
+      <div class="field field_invalid">
+        <span class="field__label">Error</span>
+        <div class="field__wrapper">
+          <input class="field__input" type="text" placeholder="Error" name="error">
+          <svg class="field__icon field__icon_invalid" viewBox="0 0 24 24" width="24" height="24">
+            <use xlink:href="/assets/images/sprite.svg#error"></use>
+          </svg>
+        </div>
+      </div>
     </body>
 </html>

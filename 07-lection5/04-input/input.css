@@ -1,12 +1,12 @@
-.field {
+.field__wrapper {
     position: relative;
 }
 
-input[type="text"] {
+.field__input {
     display: block;
     box-sizing: border-box;
     width: 100%;
-    padding: 17px 24px 13px;
+    padding: 16px 24px 12px;
     border: 1px solid var(--grey-2);
     border-radius: 8px;
     font-family: Inter, sans-serif;
@@ -16,7 +16,7 @@ input[type="text"] {
     color: var(--grey-2);
 }
 
-.field__title {
+.field__label {
     display: block;
     margin-bottom: 5px;
     font-family: Inter, sans-serif;
@@ -28,28 +28,30 @@ input[type="text"] {
     letter-spacing: 1px;
 }
 
-input[type="text"]:focus {
+.field__input:focus {
     color: var(--grey-4);
     border-color: var(--blue);
     outline: 0;
 }
 
 .field__icon {
+    display: none;
     position: absolute;
-    top: 42px;
     right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .field__icon_success {
     color: var(--blue);
 }
 
-.field .field__input_invalid {
+.field_invalid .field__input {
     color: var(--grey-4);
     border: 1px solid var(--error);
 }
 
-.field .field__input_success {
+.field_success .field__input {
     color: var(--grey-4);
 }
 
@@ -57,4 +59,10 @@ input[type="text"]:focus {
     color: var(--error);
 }
 
+.field_invalid .field__icon {
+    display: block;
+}
 
+.field_success .field__icon {
+    display: block;
+}
