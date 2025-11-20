@@ -12,6 +12,7 @@
 @import '../../03-lection1/01-button/button.css';
 @import "../../components/burger/burger.css";
 @import "../../components/close/close.css";
+@import "../../07-lection5/03-toggler/toggler.css";
 
 :root {
     --primary-h: 228;
