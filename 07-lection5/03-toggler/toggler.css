@@ -28,8 +28,8 @@
 
 .toggler__icon {
     position: absolute;
-    top: 1.5px;
-    left: 0;
+    top: 2px;
+    left: 1px;
     width: 24px;
     height: 24px;
     border-radius: 16px;
