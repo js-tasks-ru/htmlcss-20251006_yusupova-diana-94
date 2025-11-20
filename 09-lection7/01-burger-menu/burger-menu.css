@@ -12,3 +12,14 @@
 .burger-menu[data-open] {
     transform: translateX(0);
 }
+
+.burger-menu__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.burger-icon {
+    color: #D84910;
+}
+

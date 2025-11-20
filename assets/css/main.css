@@ -10,6 +10,8 @@
 @import "../../components/component/component.css";
 @import "../../components/logo/logo.css";
 @import '../../03-lection1/01-button/button.css';
+@import "../../components/burger/burger.css";
+@import "../../components/close/close.css";
 
 :root {
     --primary-h: 228;

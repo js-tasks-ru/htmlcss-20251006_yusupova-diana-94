@@ -8,12 +8,39 @@
     </head>
     <body>
         <button class="burger" id="burger-menu-open">
-            <svg class="burger__icon">
-                <use href="/assets/images/icons.svg#burger"></use>
+<!--            <svg class="burger__icon" viewBox="0 0 18 18" width="18" height="18">-->
+<!--                <use href="/assets/images/icons.svg#error"></use>-->
+<!--            </svg>-->
+            <svg class="burger__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 12H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 6H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 18H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         </button>
         <div class="burger-menu" id="burger-menu">
-            <button class="burger-menu__close" id="burger-menu-close">Close</button>
+          <div class="container">
+            <div class="burger-menu__top">
+              <button class="burger-menu__close close" id="burger-menu-close">
+                <svg class="close__icon" viewBox="0 0 12 12" width="12" height="12">
+                  <use href="/assets/images/icons.svg#cross"></use>
+                </svg>
+              </button>
+              <div class="burger-menu__logo logo">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="30" height="30" fill="#212429"/>
+                </svg>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="32" height="32" rx="16" fill="#212429"/>
+                </svg>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0L32 32H0V0Z" fill="#212429"/>
+                </svg>
+              </div>
+            </div>
+            <div class="burger-menu__toggle">
+
+            </div>
+          </div>
         </div>
     </body>
 </html>
