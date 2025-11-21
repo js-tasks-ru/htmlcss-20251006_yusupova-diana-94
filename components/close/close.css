@@ -1,0 +1,11 @@
+.close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: var(--grey-2);
+    border: none;
+    border-radius: 20px;
+}
+

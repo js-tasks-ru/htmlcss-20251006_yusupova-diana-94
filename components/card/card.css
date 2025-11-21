@@ -1,0 +1,42 @@
+.card {
+    padding: 24px;
+    background-color: var(--white);
+    border-radius: 8px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    box-shadow: 0 2px 4px 0 #2124290D;
+}
+
+.card__title {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--grey-4);
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        padding: 32px;
+        font-family: Roboto, sans-serif;
+    }
+
+    .card__title {
+        margin-bottom: 6px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 100%;
+    }
+
+    .card__text {
+        font-size: var(--grey-4);
+    }
+}
