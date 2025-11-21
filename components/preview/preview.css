@@ -1,0 +1,16 @@
+.preview {
+    padding: 68px 0;
+    background-color: var(--background);
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
+}
+
+.preview_inner {
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .preview__button {
+        display: none;
+    }
+}
