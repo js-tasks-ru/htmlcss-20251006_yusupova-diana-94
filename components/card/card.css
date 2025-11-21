@@ -4,6 +4,7 @@
     border-radius: 8px;
     text-align: center;
     font-family: Inter, sans-serif;
+    box-shadow: 0 2px 4px 0 #2124290D;
 }
 
 .card__title {

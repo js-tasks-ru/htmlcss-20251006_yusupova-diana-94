@@ -32,6 +32,7 @@
 
 .tab__content {
     display: none;
+    margin-bottom: 64px;
 }
 
 #all-tab:checked ~ #all-content,
@@ -53,6 +54,10 @@
     .tabs__scroller {
         white-space: nowrap;
         overflow: hidden;
+    }
+
+    .tab__content {
+        margin-bottom: 0;
     }
 }
 
