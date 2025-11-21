@@ -1,5 +1,21 @@
-.grid-inner {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    column-gap: 56px;
+/*.grid-inner {*/
+/*    position: fixed;*/
+/*    top: 50px;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*    border-bottom: 0;*/
+/*}*/
+
+@media screen and (min-width: 768px) {
+    .grid-inner {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .grid-inner .grid-inner__menu {
+        display: none;
+    }
 }

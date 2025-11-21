@@ -7,6 +7,7 @@
 
 .component__title {
     margin-top: 0;
+    margin-bottom: 32px;
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -14,9 +15,30 @@
     color: var(--grey-4);
 }
 
+.component__div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 40px;
+}
+
+.component__div:last-child {
+    margin-right: 0;
+}
+
+.component__grid {
+    display: flex;
+    margin-bottom: 52px;
+}
+
 @media  screen and (min-width: 768px) {
     .component__title {
+        margin-bottom: 58px;
         font-size: 28px;
         line-height: 38px;
+    }
+
+    .component__grid {
+        margin-bottom: 64px;
     }
 }

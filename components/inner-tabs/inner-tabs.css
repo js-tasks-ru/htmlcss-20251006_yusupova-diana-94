@@ -1,0 +1,20 @@
+.inner-tabs__content {
+    display: none;
+}
+
+#html-tab:checked ~ #html-content,
+#css-tab:checked ~ #css-content {
+    display: block;
+}
+
+.inner-tabs__scroller {
+    border-bottom: 1px solid var(--grey-2);
+}
+
+.inner-tabs__content p {
+    margin-top: 0;
+}
+
+.inner-tabs__content {
+    padding-top: 50px;
+}

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body class="body">
-<div class="page">
+<div class="page page_inner">
   <header class="header header_inner">
     <div class="container">
       <div class="navigation header__navigation">
@@ -43,7 +43,7 @@
   <main class="preview page__preview preview_inner">
     <div class="container">
       <div class="grid-inner">
-        <aside class="menu">
+        <aside class="menu grid-inner__menu">
           <div class="menu__section">
             <h4 class="menu__heading">Elements</h4>
             <ul class="menu__list">
@@ -117,45 +117,86 @@
         <div class="component">
           <div class="component__content">
             <h2 class="component__title">Custom form elements</h2>
-            <label class="radio">
-              <input class="radio__input" type="radio">
-              <div class="radio__state">
-                <div class="radio__control">
-                  <div class="radio__icon"></div>
-                </div>
-                <div class="radio__label">Default</div>
+            <div class="component__grid">
+              <div class="component__div">
+                <label class="radio">
+                  <input class="radio__input" type="radio">
+                  <div class="radio__state">
+                    <div class="radio__control">
+                      <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__label">Default</div>
+                  </div>
+                </label>
+                <label class="radio">
+                  <input class="radio__input" type="radio" checked>
+                  <div class="radio__state">
+                    <div class="radio__control">
+                      <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__label">Selected</div>
+                  </div>
+                </label>
+                <label class="radio">
+                  <input class="radio__input" type="radio" disabled>
+                  <div class="radio__state">
+                    <div class="radio__control">
+                      <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__label">Disabled</div>
+                  </div>
+                </label>
               </div>
-            </label>
-            <label class="radio">
-              <input class="radio__input" type="radio" checked>
-              <div class="radio__state">
-                <div class="radio__control">
-                  <div class="radio__icon"></div>
-                </div>
-                <div class="radio__label">Selected</div>
+              <div class="component__div">
+                <label class="checkbox">
+                  <input class="checkbox__input" type="checkbox">
+                  <div class="checkbox__state">
+                    <div class="checkbox__control">
+                      <svg class="checkbox__icon" width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 7.00002L5 10.5L13 1.50002" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                    <div class="checkbox__label">Default</div>
+                  </div>
+                </label>
+                <label class="checkbox">
+                  <input class="checkbox__input" type="checkbox" checked>
+                  <div class="checkbox__state">
+                    <div class="checkbox__control">
+                      <svg class="checkbox__icon" width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 7.00002L5 10.5L13 1.50002" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                    <div class="checkbox__label">Selected</div>
+                  </div>
+                </label>
+                <label class="checkbox">
+                  <input class="checkbox__input" type="checkbox" disabled>
+                  <div class="checkbox__state">
+                    <div class="checkbox__control">
+                      <svg class="checkbox__icon" width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 7.00002L5 10.5L13 1.50002" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                    <div class="checkbox__label">Disabled</div>
+                  </div>
+                </label>
               </div>
-            </label>
-            <label class="radio">
-              <input class="radio__input" type="radio" disabled>
-              <div class="radio__state">
-                <div class="radio__control">
-                  <div class="radio__icon"></div>
-                </div>
-                <div class="radio__label">Disabled</div>
+            </div>
+            <div class="inner-tabs">
+              <input class="tabs__input" name="inner-tabs" type="radio" id="html-tab" checked>
+              <input class="tabs__input" name="inner-tabs" type="radio" id="css-tab">
+              <div class="inner-tabs__scroller">
+                <label class="tabs__label tabs__label_active" for="html-tab">HTML</label>
+                <label class="tabs__label" for="css-tab">CSS</label>
               </div>
-            </label>
-
-            <label class="checkbox">
-              <input class="checkbox__input" type="checkbox">
-              <div class="checkbox__state">
-                <div class="checkbox__control">
-                  <svg class="checkbox__icon" width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.5 7.00002L5 10.5L13 1.50002" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                </div>
-                <div class="checkbox__label">Default</div>
+              <div class="inner-tabs__content" id="html-content">
+                <p>Код HTML</p>
               </div>
-            </label>
+              <div class="inner-tabs__content" id="css-content">
+                <p>Код CSS</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

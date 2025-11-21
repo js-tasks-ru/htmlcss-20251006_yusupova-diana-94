@@ -7,6 +7,8 @@
 
 .preview_inner {
     padding: 0;
+    border-top: none;
+    border-bottom: none;
 }
 
 @media screen and (max-width: 768px) {
