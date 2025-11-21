@@ -1,0 +1,9 @@
+.preview {
+    padding: 68px 0;
+    background-color: var(--background);
+}
+
+.preview_inner {
+    padding: 0;
+}
+
