@@ -1,0 +1,31 @@
+.desktop-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.desktop-menu__item {
+    margin-right: 24px;
+}
+
+.desktop-menu__item:last-child {
+    margin-right: 0;
+}
+
+.desktop-menu__link {
+    text-decoration: none;
+    color: var(--grey-3);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.desktop-menu__link_active {
+    color: var(--black);
+}
+
+@media screen and (max-width: 768px) {
+    .desktop-menu {
+        display: none;
+    }
+}

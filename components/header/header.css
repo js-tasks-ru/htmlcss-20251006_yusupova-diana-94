@@ -1,6 +1,6 @@
 .header {
     font-family: Inter, sans-serif;
-    padding: 16px 0 16px;
+    padding: 16px 0 0;
     background-color: var(--white);
 }
 
@@ -11,7 +11,7 @@
 
 .header__title {
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 69px;
     color: var(--grey-4);
     font-weight: 400;
     font-size: 28px;
@@ -19,12 +19,15 @@
 }
 
 .header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 48px;
 }
 
 @media screen and (min-width: 768px) {
     .header {
-        padding: 24px 0 77px;
+        padding: 24px 0 0;
     }
 
     .header__navigation {
@@ -32,7 +35,7 @@
     }
 
     .header__title {
-        margin-bottom: 40px;
+        margin-bottom: 77px;
         color: var(--black);
         font-size: 50px;
         font-weight: 500;

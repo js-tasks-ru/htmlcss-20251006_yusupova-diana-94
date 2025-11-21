@@ -13,54 +13,126 @@
       <div class="container">
         <div class="navigation header__navigation">
           <div class="navigation__logo logo">
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="30" height="30" fill="#212429"/>
-            </svg>
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="32" height="32" rx="16" fill="#212429"/>
-            </svg>
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 0L32 32H0V0Z" fill="#212429"/>
+            <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_16746_155)">
+                <rect y="1" width="30" height="30" fill="#212429"/>
+                <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+                <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_16746_155">
+                  <rect width="110" height="32" fill="white"/>
+                </clipPath>
+              </defs>
             </svg>
           </div>
+          <ul class="desktop-menu">
+            <li class="desktop-menu__item">
+              <a class="desktop-menu__link desktop-menu__link_active" href="#">Components</a>
+            </li>
+            <li class="desktop-menu__item">
+              <a class="desktop-menu__link" href="#">About</a>
+            </li>
+            <li class="desktop-menu__item">
+              <a class="desktop-menu__link" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
         <h1 class="header__title">Reusable component library</h1>
       </div>
     </header>
     <main class="preview page__preview">
       <div class="container">
-        <div class="grid">
-          <div class="card">
-            <div class="card__preview"></div>
-            <h3 class="card__title">Tooltip</h3>
-            <span class="card__text">Container</span>
+        <div class="tabs">
+          <input class="tabs__input" name="tabs" type="radio" id="all-tab" checked>
+          <input class="tabs__input" name="tabs" type="radio" id="elements-tab">
+          <input class="tabs__input" name="tabs" type="radio" id="containers-tab">
+          <input class="tabs__input" name="tabs" type="radio" id="templates-tab">
+
+          <div class="tabs__scroller">
+            <label class="tabs__label tabs__label_active" for="all-tab">All components</label>
+            <label class="tabs__label" for="elements-tab">Elements</label>
+            <label class="tabs__label" for="containers-tab">Containers</label>
+            <label class="tabs__label" for="templates-tab">Templates</label>
           </div>
-          <div class="card">
-            <div class="card__preview"></div>
-            <h3 class="card__title">Custom form elements</h3>
-            <span class="card__text">Element</span>
+          <div class="tab__content" id="all-content">
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Template</span>
+            </div>
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Template</span>
+            </div>
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Custom form elements</h3>
+              <span class="card__text">Element</span>
+            </div>
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Container</span>
+            </div>
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Container</span>
+            </div>
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Container</span>
+            </div>
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Container</span>
+            </div>
           </div>
-          <div class="card">
-            <div class="card__preview"></div>
-            <h3 class="card__title">Tooltip</h3>
-            <span class="card__text">Container</span>
+          <div class="tab__content" id="elements-content">
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Custom form elements</h3>
+              <span class="card__text">Element</span>
+            </div>
           </div>
-          <div class="card">
-            <div class="card__preview"></div>
-            <h3 class="card__title">Tooltip</h3>
-            <span class="card__text">Container</span>
+          <div class="tab__content" id="containers-content">
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Container</span>
+            </div>
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Container</span>
+            </div>
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Container</span>
+            </div>
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Container</span>
+            </div>
           </div>
-          <div class="card">
-            <div class="card__preview"></div>
-            <h3 class="card__title">Tooltip</h3>
-            <span class="card__text">Container</span>
+          <div class="tab__content" id="containers-templates">
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Template</span>
+            </div>
+            <div class="card">
+              <div class="card__preview"></div>
+              <h3 class="card__title">Tooltip</h3>
+              <span class="card__text">Template</span>
+            </div>
           </div>
-          <div class="card">
-            <div class="card__preview"></div>
-            <h3 class="card__title">Tooltip</h3>
-            <span class="card__text">Container</span>
-          </div>
-        </div>
       </div>
     </main>
     <footer class="footer">
